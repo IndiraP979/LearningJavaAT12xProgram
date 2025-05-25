@@ -2,11 +2,11 @@ package Tasks;
 
 import java.util.Scanner;
 
-public class Task3_Factorial_May24
+public class Task7_Factorial_25May
 {
     public static void main(String[] args) {
             Scanner sc= new Scanner(System.in);
-            System.out.println("Enter the number");
+            System.out.println("Enter the number for factorial");
             int num=sc.nextInt();
             int fact=1;
             if(num==0)
