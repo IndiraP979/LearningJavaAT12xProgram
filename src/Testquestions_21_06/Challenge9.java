@@ -33,7 +33,7 @@ public class Challenge9
                     System.out.println("Sun");
                     break;
                 default:
-                    System.out.println("Wrong value enter");
+                    System.out.println("Invalid day number");
 
 
             }
