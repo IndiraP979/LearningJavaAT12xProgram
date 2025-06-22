@@ -1,8 +1,8 @@
 package ex_22_ENUM;
 
-public class APIURLS
+public enum APIURLS
 {
-    {
+
         katalon("https://katalon.com"),
                 google("https://google.com");
 
@@ -15,4 +15,4 @@ public class APIURLS
         String getUrl(){
         return this.url;
     }
-}}
+}

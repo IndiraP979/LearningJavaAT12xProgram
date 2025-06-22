@@ -14,7 +14,7 @@ public class Lab200_ENUM
         page_button("#btn"),
         page_input("#input1");
 
-        private String locator;
+        private final String locator;
 
         Locators(String locator){
             this.locator = locator;

@@ -13,7 +13,7 @@ enum Colors{
     BLUE("#3377FF"),
     YELLOW("#4477FF");
 
-    private String hexCode;
+    private final String hexCode;
 
     Colors(String hexCode){
         this.hexCode = hexCode;
